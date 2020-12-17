@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <title>Form Elements</title>
+        <meta charset="utf-8">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+<!--input types-->
+      <div class="form-group">
+        <label for="usr">Name:</label>
+        <input type="text" class="form-control" id="usr">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd">
+      </div>
+
+<!--textarea-->
+      <div class="form-group">
+        <label for="comment">Comment:</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
+      </div>
+
+
+<!--checkbox-->
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" value="">Option 1
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" value="">Option 2
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" value="" disabled>Option 3
+        </label>
+      </div>
+
+<!--inline checkbox-->
+      <br>
+      <h3>inline checkbox</h3>
+      <div class="form-check-inline">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" value="">Option 1
+        </label>
+      </div>
+      <div class="form-check-inline">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" value="">Option 2
+        </label>
+      </div>
+      <div class="form-check-inline">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" value="" disabled>Option 3
+        </label>
+      </div>
+
+<!--Radio buttons-->
+      <br>
+      <h3>radio buttons</h3>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optradio">Option 1
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optradio">Option 2
+        </label>
+      </div>
+      <div class="form-check disabled">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optradio" disabled>Option 3
+        </label>
+      </div>
+
+      <br>
+<!--Select List-->
+      <h2>Select List</h2>
+      <div class="form-group">
+        <label for="sel1">Select list:</label>
+        <select class="form-control" id="sel1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+      </div>
+      <h2>Element Sizing</h2>
+<!--Form element sizing-->
+      <input type="text" class="form-control form-control-sm">
+      <input type="text" class="form-control form-control">
+      <input type="text" class="form-control form-control-lg">    
+      <br>
+      <br>
+      <h3>Plaintext</h3>
+      <input type="text" class="form-control-plaintext">              
+
+      <br>
+      <br>
+      <input type="range" class="form-control-range">
+      <input type="file" class="form-control-file border">
+
+      <br>
+      <br>
+      <form>
+        <div class="custom-control custom-switch">
+          <input type="checkbox" class="custom-control-input" id="switch1">
+          <label class="custom-control-label" for="switch1">Toggle me</label>
+        </div>
+      </form>
+    </body>
+</html>
